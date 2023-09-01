@@ -1,0 +1,10 @@
+# Nmap 7.94 scan initiated Thu Aug 31 21:10:33 2023 as: nmap --script http-enum -p80 -oN webscan 192.168.1.139
+Nmap scan report for 192.168.1.139 (192.168.1.139)
+Host is up (0.00021s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|_  /images/: Potentially interesting directory w/ listing on 'apache/2.4.38 (debian)'
+
+# Nmap done at Thu Aug 31 21:10:33 2023 -- 1 IP address (1 host up) scanned in 0.23 seconds

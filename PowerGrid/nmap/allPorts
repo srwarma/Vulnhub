@@ -1,0 +1,5 @@
+# Nmap 7.94 scan initiated Thu Aug 31 20:58:33 2023 as: nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn -oG allPorts 192.168.1.139
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.1.139 ()	Status: Up
+Host: 192.168.1.139 ()	Ports: 80/open/tcp//http///, 143/open/tcp//imap///, 993/open/tcp//imaps///	Ignored State: closed (65532)
+# Nmap done at Thu Aug 31 20:58:34 2023 -- 1 IP address (1 host up) scanned in 0.78 seconds
